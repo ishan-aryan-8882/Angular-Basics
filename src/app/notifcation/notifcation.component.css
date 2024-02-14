@@ -1,0 +1,23 @@
+div{
+    cursor: pointer;
+    width: fit-content;
+}
+
+
+div p{
+    position: absolute;
+    top: 100px;
+    right: 0;
+    background: rgb(228, 228, 228);
+    padding: 20px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: poppins;
+    font-size: 14px;
+    letter-spacing: 0.7px;
+    font-weight: 300;
+}

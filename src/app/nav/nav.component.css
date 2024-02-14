@@ -1,0 +1,37 @@
+*{
+    font-family: 'poppins';
+}
+
+.NavBar{
+    display: flex;
+    padding: 20px 0px;
+    margin: auto;
+    align-items: center;
+    width: calc(100% - 100px);
+    justify-content: space-between;
+}
+
+.BrandName h1{
+    font-size: 36px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    position: relative;
+}
+
+ul.menu{
+    display: flex;
+    gap: 20px;
+}
+
+ul.menu li{
+    list-style: none;
+}
+
+ul.menu li a{
+    text-decoration: none;
+    letter-spacing: 0.7px;
+    text-transform:initial;
+    color: gray;
+    font-weight: 400;
+    font-size: 15px;
+}
